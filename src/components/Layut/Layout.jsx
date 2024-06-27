@@ -8,7 +8,7 @@ import hunter from '..//../assets/img/hunter2.png'
 import stalker from '..//../assets/img/stalker.png'
 import gonka from '..//../assets/img/gonka2.png'
 import roboto from '../../assets/img/roboto.png'
-import warior from '../../assets/img/warior.png'
+import warior from '../../assets/img/warior2.png'
 const Layout = () => {
   return (
     <div className={g.tittle}>

@@ -21,19 +21,27 @@
     margin-right: 350px;
   }
   .hero__tittle{
+    max-width: 494px;
+    width: 100%;
     font-size: 42px;
     font-family: sans-serif;
     color: #ffffff;
     text-align: start;
+    margin-bottom: 20px;
   }
   .hero__btn{
-    background-color: #FC8B40;
+    background-color: hsl(23, 16%, 81%);
     max-width: 200px;
     width: 100%;
     height: 55px;
-    color: #ffffff;
+    color: #21160a;
     font-size: 17px;
     border-radius: 8px;
     right: 0;
     cursor: pointer;
+    margin-top: 50px;
+  }
+  .hero__btn:hover{
+    background-color: #cb7f28;
+    color: hsl(23, 16%, 81%);
   }

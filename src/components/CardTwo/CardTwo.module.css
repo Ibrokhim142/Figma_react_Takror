@@ -1,0 +1,116 @@
+.card{
+    max-width: 326px;
+    width: 100%;
+    height: 1024px;
+   margin-left: 20px;
+}
+.page{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 40px;
+    margin-bottom: 32px;
+  
+}
+.image > img{
+    max-width: 71px;
+    width: 100%;
+    height: 62px;
+    margin-top: 15px;
+}
+.page > h4{
+    margin-top: 10px;
+}
+.button{
+    max-width: 300px;
+    height: 75px;
+    width: 100%;
+    background-color: 
+    #FC8B40;
+    margin-bottom: 8px;
+}
+.tittle > h3{
+    margin-top: 80pz;
+    font-size: 24px;
+    gap: 15px 0;
+    
+}
+h5{
+    font-size: 15px;
+    color: #22283C;
+}
+.images{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 200px;
+  gap: 10px 0;
+}
+p{
+    color: #9DA1B4;
+    font-size: 12px;
+}
+.download{
+    margin-top: 41px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 15px 0;
+    max-width: 300px;
+    width: 100%;
+    height: 75px;
+    flex-wrap: wrap;
+    download_tittle{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 50px 0;
+
+    }
+    h4{
+        font-size: 28px;
+        color: #22283C;
+        margin-top: 20px;
+    }
+}
+.text_tittle{
+    font-size: 18px;
+}
+.star{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 0 2px;
+    margin-top: 5px;
+    margin-bottom: 12px;
+}
+.text{
+    width: 240px;
+    height: 56px;
+    font-size: 14px;
+    color: 
+    #9DA1B4;
+}
+.download__btns{
+    max-width: 286px;
+    width: 100%;
+    height: 45px;
+}
+.download__btn{
+    max-width: 286px;
+    width: 100%;
+    height: 45px;
+    background-color: #ffffff;
+    color: #FC8B40;
+    border: 2px solid #FC8B40;
+    font-size: 17px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.download__btn:hover{
+   
+    background-color: #FC8B40;
+    color: #ffffff;
+}

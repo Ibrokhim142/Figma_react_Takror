@@ -4,6 +4,7 @@ import Hero from './components/hero/Hero.jsx'
 import Logo from './components/Logo/Logo.jsx'
 import Wrapper from './components/Wrapper/Wrapper.jsx'
 import Layout from './components/Layut/Layout.jsx'
+import CardTwo from './components/CardTwo/CardTwo.jsx'
 const App = () => {
   return (
     <>
@@ -15,7 +16,10 @@ const App = () => {
               <Wrapper/>
               <Layout/>
           </div>
+          <div className={c.cardTwo}>
 
+              <CardTwo/>
+          </div>
 
 
 
